@@ -5,13 +5,13 @@ library(randomForest)
 #Reading in CSV files
 train <-
   read.csv(
-    "C:\\R working folder\\Projects\\Kaggle Competition Titanic\\datasets\\train.csv",
+    "\datasets\train.csv",
     header = TRUE,
     stringsAsFactors =  FALSE
   )
 test <-
   read.csv(
-    "C:\\R working folder\\Projects\\Kaggle Competition Titanic\\datasets\\test.csv",
+    "datasets\test.csv",
     header = TRUE,
     stringsAsFactors = FALSE
   )
